@@ -1,0 +1,44 @@
+/* 
+=============
+Fonts
+==============
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap')
+
+/* 
+=============
+Variables
+==============
+*/
+
+:root{
+  --clr-primary: #278bea;
+  --clr-primary-light: #9ed8f3;
+  --clr-grey-1: #101c28;  
+  --clr-grey-5: #40464d;  
+  --clr-grey-10: #f1f5f8;
+  --clr-white: #fff;
+  --ff-primary: 'Roboto', sans-serif;
+  --ff-secondary: 'Poppins', sans-serif;
+  --transition: all 0.3s linear;
+  --spacing: 0.25rem;
+  --radius: 0.5rem;
+}
+
+/* 
+=============
+Global styles
+==============
+*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: var(--ff-primary);
+  background: var(--clr-grey-1);
+
+}
