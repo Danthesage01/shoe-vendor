@@ -653,6 +653,13 @@ Footer
   color: var(--clr-white);
   font-weight: 400;
 }
+.footer h6{
+  text-transform: capitalize;
+  margin-bottom: -3.5rem;
+  font-weight: 400;
+  font-style: italic;
+  color: var(--clr-white); 
+}
 .company {
   color: var(--clr-primary);
 }
