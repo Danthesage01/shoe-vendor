@@ -468,7 +468,10 @@ padding: 2rem 0;
   padding-bottom: -4rem;
   margin-bottom: -2rem;
 }
-
+.product-about .product-title{
+  margin-top: -1.2rem;
+    /* padding-bottom: -2rem; */
+  }
 @media screen and (min-width: 1230px){
   .product-about{
     width: 30%;
@@ -476,7 +479,7 @@ padding: 2rem 0;
     /* margin-left: 5%; */
   }
   .product-about .product-title{
-    padding-bottom: 2rem;
+    padding-bottom: 1.5rem;
   }
 }
 /*
