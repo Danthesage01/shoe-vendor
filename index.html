@@ -12,15 +12,31 @@
 
 <body>
   <!-- Navbar -->
+  <span class="nav-btn" id="nav-btn">
+    <i class="fa-solid fa-bars"></i>
+  </span>
 
+  <nav class="navbar" id="navbar">
+    <div class="navbar-header">
+      <span class="nav-close" id="nav-close">
+        <i class="fa-solid fa-times"></i>
+      </span>
+    </div>
+    <ul class="nav-items">
+      <li><a href="index.html" class="nav-link">home</a></li>
+      <li><a href="services.html" class="nav-link">services</a></li>
+      <li><a href="about.html" class="nav-link">about</a></li>
+      <li><a href="products.html" class="nav-link">products</a></li>
+    </ul>
+  </nav>
   <!-- end of navbar -->
 
   <!-- header  -->
   <header class="header">
     <div class="banner">
       <h2>thousands of quality</h2>
-      <h1>shoes </h1>
-      <h2>for you here</h2>
+      <h1>sneakers </h1>
+      <h2>for you</h2>
       <a href="products.html" class="btn banner-btn">Get yours</a>
     </div>
   </header>
@@ -42,7 +58,7 @@
 
     <article class="feature">
       <span class="feature-icon">
-          <i class="fa-solid fa-glass-cheers"></i>
+        <i class="fa-solid fa-glass-cheers"></i>
       </span>
       <h4 class="feature-title">Affordable</h4>
       <p class="feature-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, quis.</p>
@@ -58,9 +74,10 @@
 
     <article class="feature">
       <span class="feature-icon">
-        <i class="fa-solid fa-person"></i>
+        <i class="fa-solid fa-socks"></i>
+
       </span>
-      <h4 class="feature-title">Durable</h4>
+      <h4 class="feature-title">Free socks</h4>
       <p class="feature-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, quis.</p>
     </article>
   </section>
@@ -71,23 +88,24 @@
     <div class="section-center clearfix">
       <article class="about-img">
         <div class="about-picture-container">
-          <img src="./assets/bg-main.jpg" alt="about image"
-          class="about-picture">
+          <img src="./assets/bg-main.jpg" alt="about image" class="about-picture">
         </div>
-        </article>
+      </article>
 
       <article class="about-info">
         <div class="section-title">
-          <h3>about your favorite</h3>
-          <h2>shoe vendor</h2>
+          <h3>about </h3>
+          <h2>sneaker vendor</h2>
         </div>
-       <p class="about-text">
-         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo cum voluptate deleniti dicta eaque similique asperiores commodi necessitatibus quam quidem.
-       </p>
-       <p class="about-text">
-         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo cum voluptate deleniti dicta eaque similique asperiores commodi necessitatibus quam quidem.
-       </p>
-       <a href="about.html" class="btn">Know More</a>
+        <p class="about-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo cum voluptate deleniti dicta eaque similique
+          asperiores commodi necessitatibus quam quidem.
+        </p>
+        <p class="about-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo cum voluptate deleniti dicta eaque similique
+          asperiores commodi necessitatibus quam quidem.
+        </p>
+        <a href="about.html" class="btn">Know More</a>
       </article>
     </div>
   </section>
@@ -97,41 +115,175 @@
   <section class="products">
     <div class="section-center clearfix">
       <article class="products-info">
-          <div class="section-title">
-            <h3>check our</h3>
-            <h2>shoe brands</h2>
-          </div>
-          <p class="product-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae cupiditate excepturi numquam sint nesciunt illo deleniti quae ratione sunt nisi?
-          </p>
-          <a href="products.html" class="btn">inventory</a>
+        <div class="section-title">
+          <h3>check available</h3>
+          <h2>brands</h2>
+        </div>
+        <p class="product-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae cupiditate excepturi numquam sint nesciunt
+          illo deleniti quae ratione sunt nisi?
+        </p>
+        <a href="products.html" class="btn">inventory</a>
       </article>
       <article class="products-inventory clearfix">
         <div class="product">
           <img src="./assets/product-addidas.jpg" alt="addidas" class="product-img">
-          <h4 class="product-title">Addidas Sneakers</h4>
-          <!-- <h4 class="product-price"></h4> -->
+          <h4 class="product-title">Addidas</h4>
         </div>
         <div class="product">
           <img src="./assets/product-newbalance.jpg" alt="addidas" class="product-img">
-          <h4 class="product-title">New Balance Sneakers</h4>
-          <!-- <h4 class="product-price"></h4> -->
-        </div>
-        <div class="product">
-          <img src="./assets/product-nike.jpg" alt="addidas" class="product-img">
-          <h4 class="product-title">Nike Sneakers</h4>
-          <!-- <h4 class="product-price"></h4> -->
-        </div>
-        <div class="product">
-          <img src="./assets/product-reebok.jpg" alt="addidas" class="product-img">
-          <h4 class="product-title">Reebook Sneakers</h4>
-          <!-- <h4 class="product-price"></h4> -->
+          <h4 class="product-title">New Balance</h4>
         </div>
       </article>
     </div>
   </section>
   <!-- end of products -->
 
+  <!-- service section -->
+  <section class="services">
+    <div class="section-title services-title">
+      <h3>explore</h3>
+      <h2>our services</h2>
+    </div>
+
+    <div class="section-center clearfix">
+      <article class="service-card">
+        <div class="service-img-container">
+          <img src="./assets/service-delivery.jpg" alt="custom" class="service-img">
+          <span class="service-icon">
+            <i class="fa-solid fa-truck fa-fw"></i>
+          </span>
+        </div>
+
+        <div class="service-info">
+          <h4>worldwide delivery</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere natus repellendus aliquam error repellat
+            dicta!</p>
+          <a href="services.html" class="btn service-btn">read more</a>
+        </div>
+
+      </article>
+
+      <article class="service-card">
+        <div class="service-img-container">
+          <img src="./assets/service-custom.jpg" alt="custom" class="service-img">
+          <span class="service-icon">
+            <i class="fa-solid fa-users-gear fa-fw"></i>
+          </span>
+        </div>
+        <div class="service-info">
+          <h4>customization</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere natus repellendus aliquam error repellat
+            dicta!</p>
+          <a href="services.html" class="btn service-btn">read more</a>
+        </div>
+      </article>
+
+      <article class="service-card">
+        <div class="service-img-container">
+          <img src="./assets/service-full.jpg" alt="custom" class="service-img">
+          <span class="service-icon">
+            <i class="fa-solid fa-person fa-fw"></i>
+          </span>
+        </div>
+        <div class="service-info">
+          <h4>full kit supply</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere natus repellendus aliquam error repellat
+            dicta!</p>
+          <a href="services.html" class="btn service-btn">Read more</a>
+        </div>
+      </article>
+    </div>
+  </section>
+  <!-- end of service section -->
+
+  <!-- contact -->
+  <section class="contact">
+    <!-- contact center -->
+    <div class="section-center clearfix">
+      <!-- single contact form -->
+      <article class="contact-info">
+        <!-- contact item -->
+        <div class="contact-item">
+          <h4 class="contact-title">
+            <span class="contact-icon">
+              <i class="fa-solid fa-location-arrow">
+              </i>
+            </span>
+            address
+          </h4>
+          <h4 class="contact-text">
+            4312 SW 45th Ave <br />
+            Amarillo, Texas 79109
+          </h4>
+        </div>
+        <!--end of contact item -->
+
+        <!-- contact item -->
+        <div class="contact-item">
+          <h4 class="contact-title">
+            <span class="contact-icon">
+              <i class="fa-solid fa-envelope">
+              </i>
+            </span>
+            email
+          </h4>
+          <h4 class="contact-text">
+            email@gmail.com
+          </h4>
+        </div>
+
+        <div class="contact-item">
+          <h4 class="contact-title">
+            <span class="contact-icon">
+              <i class="fa-solid fa-phone">
+              </i>
+            </span>
+            telephone
+          </h4>
+          <h4 class="contact-text">
+            +138 566 879
+          </h4>
+        </div>
+      </article>
+      <article class="contact-form">
+        <h3>contact us</h3>
+        <form action="https://formspree.io/f/mwkyjvlr" method="POST">
+          <div class="form-group">
+            <input type="text" placeholder="name" class="form-control" name="name">
+            <input type="email" placeholder="email" class="form-control" name="email">
+            <textarea name="message" class="form-control" placeholder="message" rows="5"></textarea>
+          </div>
+          <button type="submit" class="btn submit-btn">Submit</button>
+        </form>
+      </article>
+    </div>
+  </section>
+  <!-- end of contact -->
+
+  <!-- footer -->
+  <footer class="footer">
+    <div class="section-center">
+      <div class="social-icons">
+        <a href="#" class="social-icon">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="#" class="social-icon">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+        <a href="#" class="social-icon">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+      </div>
+      <h4 class="footer-text">
+        &copy; <span id="date"></span>
+        <span class="company">sneakers vendor</span>
+        all rights reserved
+      </h4>
+    </div>
+  </footer>
+
+  <script src="./js/script.js"></script>
 </body>
 
 </html>
