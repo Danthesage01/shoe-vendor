@@ -293,6 +293,7 @@ Header
   font-family: var(--ff-tertiary);
   color: var(--clr-white);
    animation: slideFromRight 5s ease-in-out 1;
+
 }
 .banner h1{
   text-transform: uppercase;
